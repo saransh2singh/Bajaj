@@ -1,0 +1,26 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web App</title>
+    <!-- Add any CSS or stylesheets here if needed -->
+</head>
+<body>
+    <h1>Welcome to My Web App</h1>
+
+    <!-- Create a form for POST requests -->
+    <form id="myForm">
+        <label for="data">Enter Data (comma-separated):</label>
+        <input type="text" id="data" name="data">
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Display operation_code from GET request -->
+    <p>Operation Code: <span id="operationCode"></span></p>
+
+    <!-- Include JavaScript to handle form submission and GET request -->
+    <script src="js/app.js"></script>
+</body>
+</html>
